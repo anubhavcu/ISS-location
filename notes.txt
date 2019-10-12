@@ -1,0 +1,22 @@
+Another api to get data from
+
+// async function getData(){
+//   //Open notify api
+
+//   const res = await fetch('http://api.open-notify.org/iss-now.json')
+
+//   const data = await res.json();
+
+// console.log(JSON.parse(data.iss_position.latitude))
+// // JSON.parse is done as data.iss_position.latitude is in string format   
+//   console.log(data.iss_position.longitude)
+// }
+// getData()
+
+
+
+//tileUrl is not an actual url - convention to load tiles where s-style; x,y- cordinates; z-zoom level 
+
+
+
+//warning with 'innertext' at document.getElemenById('lat') see- "https://stackoverflow.com/questions/35213147/difference-between-textcontent-vs-innertext"
